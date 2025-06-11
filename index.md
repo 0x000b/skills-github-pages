@@ -1,150 +1,94 @@
+# 🗡️ **Assassin's Creed x Griffith | OffSec Chronicles**
+
+> *"Nothing is true; everything is permitted."*  
+> *"To rise above, you must first descend into darkness."*
+
+Welcome, Seeker of Shadows. This is not just a blog — it's a hidden codex forged in code and conviction. Here, the philosophies of **Griffith** from *Berserk* and the precision of **Assassin's Creed** blend into a dark digital discipline — weaponized for red teaming, reverse engineering, and offensive security.
+
 ---
-title: Welcome to my blog!
+
+## 🧠 **⚔️ Memory Dive - Blog Episodes**
+
+| Episode | Title                          | Date         | Theme                              |
+|--------:|--------------------------------|--------------|-------------------------------------|
+| 01      | 🧬 *Enter the Animus*          | June 1, 2025 | Binary Exploitation Foundations     |
+| 02      | 🕵️‍♂️ *Creed of Recon*         | June 3, 2025 | OSINT & Reconnaissance              |
+| 03      | 🗡️ *Hidden Blade: BOFs*        | June 5, 2025 | Buffer Overflows & Shellcode        |
+| 04      | 🧱 *Brotherhood of Shells*     | June 7, 2025 | Reverse Shells & Evasion            |
+| 05      | 🔥 *The Templars' Firewall*    | June 9, 2025 | Defense Bypass & Misconfigurations  |
+
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Assassin's Creed - OffSec Blog</title>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-     *{
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
 
-    body {
-      font-family: 'Ubuntu', sans-serif;
-      background-color: #0d0d0d;
-      color: #f0f0f0;
-    }
+## 🧩 **💻 Hack The Box Archives**
 
-    .hero {
-      background-image: url('https://wallpaperaccess.com/full/153274.jpg');
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      padding: 40px;
-      position: relative;
-    }
+Explore blood-stained paths to mastery through Hack The Box machines. Each one conquered through logic, stealth, and pure willpower.
 
-    .hero::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
-      z-index: 1;
-    }
+### 🟢 Easy Contracts
+- `Netmon` - FTP misconfigs and low-hanging recon fruit.
+- `Lame` - Your first blade sharpened.
+- `Legacy` - SMB and the first true kill.
 
-    .content {
-      position: relative;
-      z-index: 2;
-    }
+### 🟡 Medium Trials
+- `Beep` - Enumeration through noise.
+- `Cascade` - AD secrets unravelled.
+- `Resolute` - Trust exploited in corporate shadows.
 
-    .title {
-      font-size: 3rem;
-      font-weight: 700;
-      text-shadow: 2px 2px 5px #000;
-    }
+### 🔴 Hard Rites
+- `Forest` - Blood-soaked Active Directory hunting.
+- `Sauna` - Kerberos forged and consumed.
+- `Admirer` - Real-life recon turned digital kill.
 
-    .subtitle {
-      font-size: 1.25rem;
-      margin-top: 10px;
-      color: #ccc;
-    }
+### ⚫ Insane Crusades
+- `Jewel` - Reverse engineering under pressure.
+- `RastaLabs` - The crucible of red teamers.
+- `Offshore` - Pivoting in network hell.
 
-    .episode-list {
-      background-color: #111;
-      padding: 30px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-    }
+---
 
-    .episode {
-      background-color: #1b1b1b;
-      padding: 20px;
-      border-left: 4px solid crimson;
-      box-shadow: 0 0 10px rgba(0,0,0,0.5);
-      transition: transform 0.3s;
-    }
+## 🌐 **🧙‍♂️ TryHackMe Codex**
 
-    .episode:hover {
-      transform: translateY(-5px);
-    }
+Stealth training and lore-based recon, crafted for disciplined assassins.
 
-    .episode h3 {
-      font-size: 1.2rem;
-      color: crimson;
-    }
+### 🟢 Easy Paths
+- `Mr Robot` - Web hacking fundamentals.
+- `Linux Basics` - Learn the blade.
+- `Pre-Security` - Baby steps into the creed.
 
-    .episode p {
-      font-size: 0.95rem;
-      margin-top: 5px;
-      color: #aaa;
-    }
+### 🟡 Medium Skirmishes
+- `Red Team Basics` - Crafting payloads in silence.
+- `Burp Suite` - Interception and corruption.
+- `Pickle Rick` - Python injection and access.
 
-    .meta {
-      margin-top: 15px;
-      font-size: 0.85rem;
-      color: #666;
-    }
+### 🔴 Hard Infiltrations
+- `Blue` - EternalBlue brought to heel.
+- `Wreath` - Advanced enumeration of services.
+- `Agent T` - Bypassing logic like Griffith bypasses fate.
 
-    footer {
-      text-align: center;
-      padding: 20px;
-      background-color: #0b0b0b;
-      font-size: 0.9rem;
-      color: #888;
-    }
-  </style>
-</head>
-<body>
-  <div class="hero">
-    <div class="content">
-      <h1 class="title">ASSASSIN'S CREED</h1>
-      <p class="subtitle">The path to mastery is forged in the shadows – Welcome to the OffSec Blog</p>
-    </div>
-  </div>
+### ⚫ Insane Trials
+- `Advent of Cyber` - 25 days of cyber combat.
+- `King of the Hill` - PvP at the top.
+- `Year of the Snake` - Reverse engineering and evasion.
 
-  <div class="episode-list">
-    <div class="episode">
-      <h3>01 - Enter the Animus</h3>
-      <p>Diving deep into memory manipulation and binary exploitation foundations.</p>
-      <p class="meta">Posted on: June 1, 2025</p>
-    </div>
-    <div class="episode">
-      <h3>02 - Creed of Recon</h3>
-      <p>Advanced recon and OSINT for real-world red team scenarios.</p>
-      <p class="meta">Posted on: June 3, 2025</p>
-    </div>
-    <div class="episode">
-      <h3>03 - Hidden Blade: Buffer Overflows</h3>
-      <p>Sharpen your exploits with stack smashing and shellcode crafting.</p>
-      <p class="meta">Posted on: June 5, 2025</p>
-    </div>
-    <div class="episode">
-      <h3>04 - Brotherhood of Shells</h3>
-      <p>Reverse shells, bind shells, and evasion techniques for stealthy operations.</p>
-      <p class="meta">Posted on: June 7, 2025</p>
-    </div>
-    <div class="episode">
-      <h3>05 - The Templars' Firewall</h3>
-      <p>Bypassing modern defenses and abusing misconfigurations.</p>
-      <p class="meta">Posted on: June 9, 2025</p>
-    </div>
-  </div>
+---
 
-  <footer>
-    Crafted with discipline in the digital shadows. &copy; 2025 AssassinSec
-  </footer>
-</body>
-</html>
+## 📜 **⚙️ Tools of the Brotherhood**
+
+- `Sliver C2`
+- `BloodHound`
+- `Rubeus`
+- `IDA Free`
+- `Ghidra`
+
+---
+
+## 🩸 Final Words
+
+> *"You must destroy before you create. Cleanse with fire, then rebuild from the ashes."*  
+
+Whether you follow the creed or Griffith's twisted dream — understand this: to be elite in offensive security, you must embrace the abyss.
+
+🕳️ **Walk the dark path. Write your legacy in memory.**
+
+---
+
+🖤 *Made by a disciple of the digital blade – 2025*
